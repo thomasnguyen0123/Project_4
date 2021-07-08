@@ -1,0 +1,55 @@
+.dropdown {
+  color: white;
+  padding: 1em;
+  background: green;
+}
+@media only screen and (max-width: 768px) {
+  h2.Travel {
+    position: relative;
+    top: -0.45em;
+    left: 3.8em;
+    color: #ffd700;
+    text-decoration: white;
+    font: 1.8em sans-serif;
+  }
+  h2.Australia {
+    color: #008000;
+    position: relative;
+    top: 5.9vw;
+    font: 1.8em sans-serif;
+  }
+  a:hover {
+    opacity: 90%;
+    color: white;
+  }
+  a {
+    font: 0.6em sans-serif;
+  }
+  .Pricing,
+  .Attractions,
+  .Communities,
+  .Travel2 {
+    position: absolute;
+    left: 20em;
+    color: white;
+    padding: 1em;
+    background: green;
+    display: block;
+    text-decoration: none !important;
+  }
+  .Travel2 {
+    top: 2.7em;
+    border-right: 3.1em green solid;
+  }
+  .Pricing {
+    top: 5.7em;
+    border-right: 2.8em green solid;
+  }
+  .Attractions {
+    top: 8.7em;
+    border-right: 1.1em green solid;
+  }
+  .Communities {
+    top: 11.7em;
+  }
+}

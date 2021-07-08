@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+  h2.Travel {
+    position: relative;
+    top: -0.2em;
+    left: 3.8em;
+    color: #ffd700;
+    text-decoration: white;
+    font: 0.8em sans-serif;
+  }
+  h2.Australia {
+    color: #008000;
+    position: relative;
+    top: 5.9vw;
+    font: 0.8em sans-serif;
+  }
+  a:hover {
+    opacity: 60%;
+  }
+}
